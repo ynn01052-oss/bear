@@ -12,7 +12,7 @@ ADB_DEVICE = "127.0.0.1:5555"   # 改成 BlueStacks 設定 > 進階 裡顯示的
 
 START_DELAY = 3          # 執行後等幾秒再開始
 ENTER_DELAY = 2          # 點 PLAY / 再試一次 後進入關卡需要的秒數
-JUMP_SECONDS = 36        # 每次跳幾秒（每秒點一次）
+JUMP_SECONDS = 70        # 每次跳幾秒（每秒點一次）
 TOTAL_RUNS = 20          # 一輪最多跑幾次（次數有限制的日子會在次數用完時提早結束）
 JUMP_POS = (205, 908)    # 跳鍵座標（1920x1080）
 THRESHOLD = 0.8          # 模板比對門檻
